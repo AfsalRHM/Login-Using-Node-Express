@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/assets/Backgroung\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-image: linear-gradient(lightskyblue, lemonchiffon);
+    background-size: cover;
+}
+
+.center-div {
+    padding-top: 10%;
+};
+
+.submit-button {
+    padding: .4em 2em;
+}
+
+form {
+    padding: 0 3em;
+}
+
+.title > span {
+    font-size: .8em;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+
+.alert-success {
+    padding: .5em 0;
+    margin-top: 1em;
+}
+
+.alert-danger {
+    padding: .5em 0;
+    margin-top: 1em;
+}
